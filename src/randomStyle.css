@@ -1,0 +1,14 @@
+.slide-track {
+  width: calc(250px * 18);
+  animation: scroll 40s linear infinite;
+  overflow-x: hidden;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 5));
+  }
+}
