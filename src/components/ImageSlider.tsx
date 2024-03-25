@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick-theme.css";
 import image1 from "../assets/alphadev 1.jpg";
 import image2 from "../assets/cmc.jpg";
 import image3 from "../assets/descreener 1.jpg";
-import image4 from "../assets/dextools 2.jpg";
+// import image4 from "../assets/dextools 2.jpg";
 import image5 from "../assets/raydium 1.jpg";
 import "../randomStyle.css";
 
@@ -44,13 +44,16 @@ const ImageSlider = () => {
         <img src={image2} alt="Company Logo" className="w-full" />
       </div>
       <div className="h-[100px] sm:w-[250px] w-[180px] flex items-center p-6">
+        <img src={"./dextools.png"} alt="Company Logo" className="w-full" />
+      </div>
+      <div className="h-[100px] sm:w-[250px] w-[180px] flex items-center p-6">
         <img src={image3} alt="Company Logo" className="w-full" />
       </div>
       <div className="h-[100px] sm:w-[250px] w-[180px] flex items-center p-6">
-        <img src={image4} alt="Company Logo" className="w-full" />
-      </div>
-      <div className="h-[100px] sm:w-[250px] w-[180px] flex items-center p-6">
         <img src={image5} alt="Company Logo" className="w-full" />
+      </div>
+      <div className="h-[60px] sm:w-[200px] w-[180px] flex items-center p-6">
+        <img src={"./gotbit.jpg"} alt="Company Logo" className="w-full" />
       </div>
 
       {/* doubled */}
@@ -61,13 +64,16 @@ const ImageSlider = () => {
         <img src={image2} alt="Company Logo" className="w-full" />
       </div>
       <div className="h-[100px] sm:w-[250px] w-[180px] flex items-center p-6">
+        <img src={"./dextools.png"} alt="Company Logo" className="w-full" />
+      </div>
+      <div className="h-[100px] sm:w-[250px] w-[180px] flex items-center p-6">
         <img src={image3} alt="Company Logo" className="w-full" />
       </div>
       <div className="h-[100px] sm:w-[250px] w-[180px] flex items-center p-6">
-        <img src={image4} alt="Company Logo" className="w-full" />
-      </div>
-      <div className="h-[100px] sm:w-[250px] w-[180px] flex items-center p-6">
         <img src={image5} alt="Company Logo" className="w-full" />
+      </div>
+      <div className="h-[60px] sm:w-[200px] w-[180px] flex items-center p-6">
+        <img src={"./gotbit.jpg"} alt="Company Logo" className="w-full" />
       </div>
     </div>
   );
