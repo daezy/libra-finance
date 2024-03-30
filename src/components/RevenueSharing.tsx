@@ -3,7 +3,7 @@ import sectionImg from "../assets/hodlbot_illustration 1.png";
 
 const RevenueSharing = () => {
   return (
-    <div className="bg-[#000618] py-[100px] relative ">
+    <div className="bg-[#000618] py-16 relative ">
       <div className="container mx-auto px-4 md:grid  md:grid-cols-2 gap-3 items-center">
         <div className="order-2 md:order-1" data-aos="fade-right">
           <div className="lg:block flex flex-col justify-center ">

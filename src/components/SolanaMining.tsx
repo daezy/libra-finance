@@ -3,7 +3,7 @@ import sectionImage from "../assets/miningPicture.png";
 
 const SolanaMining = () => {
   return (
-    <div className=" bg-[#000618] py-[100px] ">
+    <div className=" bg-[#000618] py-16 ">
       <div className="container mx-auto px-4 md:grid grid-cols-2 gap-3 items-center">
         <div
           className="md:block hidden lg:w-[70%] md:w-[90%]"
@@ -28,7 +28,7 @@ const SolanaMining = () => {
             </p>
           </div>
           <div className="mt-8 lg:block ">
-            <a href="https://t.me/libraprotocolsol">
+            <a href="https://miner.libra-finance.app">
               <button className=" px-5 py-3 w-full bg-gradient-to-r from-blue-900 to-blue-400 rounded-md">
                 <p className="text-white font-bold sm:text-lg text-md">
                   JOIN NOW

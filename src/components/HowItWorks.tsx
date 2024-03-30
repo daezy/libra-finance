@@ -1,11 +1,9 @@
-import React from "react";
 import lineImg from "../assets/Rectangle 40857.png";
 import pointerImg from "../assets/pointer.png";
-import rectangleImg from "../assets/RectangleDesign.png";
 
 const HowItWorks = () => {
   return (
-    <div className="bg-[#000618]  pb-[100px]  relative " id="features">
+    <div className="bg-[#000618]  py-16  relative " id="features">
       <div className=" container mx-auto px-4">
         <div className="sm:mb-3 mt-0 my-10 ">
           <h2 className="text-white sm:text-[30px] text-4xl text-center">
@@ -48,7 +46,7 @@ const HowItWorks = () => {
                   your mining deposits. However, please note that this APY is
                   subject to change based on the volume of activity on the Libra
                   Miner platform. The more activity, the higher the potential
-                  rewards.  
+                  rewards.
                 </p>
               </div>
             </div>

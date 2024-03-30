@@ -1,19 +1,17 @@
-import React from "react";
 import xIcon from "../assets/ic_round-dangerous.png";
 import withdrawIcon from "../assets/uil_money-withdrawal.png";
 import libraImg from "../assets/Group 1171275018.png";
-import pointerImg from "../assets/pointer.png";
 
 const WithdrawPolicy = () => {
   return (
-    <div className="bg-[#000618] pt-10  pb-[100px]  relative " id="features">
+    <div className="bg-[#000618] py-16  relative " id="features">
       <div className=" container mx-auto px-4">
         <div className="sm:mb-3 pt-12  ">
           <h2 className="text-white sm:text-[30px] text-[21px] text-center">
             Fee Structural and Withdrawal Policy
           </h2>
         </div>
-        <div className="flex md:flex-row flex-col relative gap-10 mt-[80px] items-center  ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-[80px] items-center  ">
           <div
             className="py-10 flex flex-col  justify-center items-center bg-[rgba(255,253,253,0.1)] bg-opacity-60 p-5 rounded-md 0 mt-7 relative"
             data-aos="fade-up"
@@ -35,9 +33,9 @@ const WithdrawPolicy = () => {
           </div>
           <div
             data-aos="zoom-in"
-            className="md:block justify-center items-center z-9999 w-[600px] relative hidden"
+            className="md:flex justify-center items-center z-9999 relative hidden"
           >
-            <img src={libraImg} className="w-full" alt="" />
+            <img src={libraImg} className="w-full md:w-9/12" alt="" />
           </div>
           <div
             className="py-10 flex flex-col justify-center items-center bg-[rgba(255,253,253,0.1)] bg-opacity-60 p-5 rounded-md 0 mt-7 relative"

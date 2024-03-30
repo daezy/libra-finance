@@ -164,7 +164,7 @@ const DappStats = () => {
               : 0}
             %{" "}
           </p>
-          <p>16.59% / day</p>
+          <p>8.57% / day</p>
         </div>
 
         <div className="text-center">
@@ -178,7 +178,7 @@ const DappStats = () => {
               : 0}
             %{" "}
           </p>
-          <p>7.23% / day</p>
+          <p>4.8% / day</p>
         </div>
       </div>
     </div>
