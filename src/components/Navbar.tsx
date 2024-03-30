@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-[#000618] relative">
-      <div className="flex container mx-auto px-4 py-2 justify-between items-center ">
+      <div className="flex container  px-7  py-2 justify-between items-center ">
         <a href="#">
           <div className="flex items-center">
             <img src={logo} alt="logo" className="w-20" />
