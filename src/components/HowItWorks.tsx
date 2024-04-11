@@ -24,10 +24,10 @@ const HowItWorks = () => {
               </div>
               <div className="text-[#D2D2D2] relative bg-[#28649745] rounded-2xl px-5 py-8 border border-solid border-slate-700">
                 <p>
-                  Dive into Libra Bank, the freedom tool that combines interest
-                  with flexibility. Earn a competitive APY that ensures steady
-                  gains while enjoying the liberty to withdraw at any time.
-                  Libra Bank is your gateway to consistent, medium APY returns.
+                  Deposit and Start Mining: Miners deposit their Solana into the
+                  Libra Miner app to kickstart the mining process. As soon as
+                  the deposit is made, mining begins automatically, allowing
+                  miners to earn Solana rewards at a fixed APY of 2,120%
                 </p>
               </div>
             </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import sectionImage from "../assets/miningPicture.png";
 
 const SolanaMining = () => {

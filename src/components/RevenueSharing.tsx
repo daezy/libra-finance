@@ -1,4 +1,3 @@
-import React from "react";
 import sectionImg from "../assets/hodlbot_illustration 1.png";
 
 const RevenueSharing = () => {
